@@ -165,7 +165,8 @@ def send_sms(to, body):
         with urllib.request.urlopen(req, timeout=10) as r:
             return json.loads(r.read()).get("status", "sent")
     except Exception as e:
-        print(f"[voice] SMS failed: {e}", flush=True)
+        detail = e.read().decode()[:300] if hasattr(e, "read") else ""
+        print(f"[voice] SMS failed: {e} {detail}", flush=True)
         return f"error: {e}"
 
 
