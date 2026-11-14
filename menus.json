@@ -1,0 +1,35 @@
+{
+  "Indian": [
+    {"name": "Chicken Biryani", "price": 14.99, "veg": false, "halal": true, "spice": "medium", "nuts": true, "description": "Basmati rice layered with spiced chicken, topped with fried cashews. Can be made mild."},
+    {"name": "Paneer Tikka", "price": 12.99, "veg": true, "halal": true, "spice": "medium", "nuts": false, "description": "Grilled cottage cheese cubes marinated in yogurt and spices."},
+    {"name": "Garlic Naan", "price": 3.99, "veg": true, "halal": true, "spice": "none", "nuts": false, "description": "Tandoor-baked flatbread brushed with garlic butter."},
+    {"name": "Butter Chicken", "price": 15.49, "veg": false, "halal": true, "spice": "mild", "nuts": true, "description": "Chicken in a creamy tomato sauce thickened with cashew paste."},
+    {"name": "Lamb Rogan Josh", "price": 16.99, "veg": false, "halal": true, "spice": "hot", "nuts": false, "description": "Slow-cooked lamb curry with Kashmiri chili."},
+    {"name": "Chana Masala", "price": 11.49, "veg": true, "halal": true, "spice": "medium", "nuts": false, "description": "Chickpeas simmered in an onion-tomato gravy. Vegan."},
+    {"name": "Vegetable Samosas (2)", "price": 5.99, "veg": true, "halal": true, "spice": "mild", "nuts": false, "description": "Crispy pastries filled with spiced potato and peas."},
+    {"name": "Mango Lassi", "price": 4.49, "veg": true, "halal": true, "spice": "none", "nuts": false, "description": "Sweet yogurt and mango drink."},
+    {"name": "Gulab Jamun", "price": 4.99, "veg": true, "halal": true, "spice": "none", "nuts": true, "description": "Milk dumplings in rose syrup, garnished with pistachio."}
+  ],
+  "Italian": [
+    {"name": "Penne Alfredo", "price": 14.99, "veg": true, "halal": false, "spice": "none", "nuts": false, "description": "Penne in a parmesan cream sauce."},
+    {"name": "Margherita Pizza", "price": 13.99, "veg": true, "halal": false, "spice": "none", "nuts": false, "description": "Tomato, fresh mozzarella and basil."},
+    {"name": "Pepperoni Pizza", "price": 15.49, "veg": false, "halal": false, "spice": "mild", "nuts": false, "description": "Tomato, mozzarella and pork pepperoni."},
+    {"name": "Spaghetti Bolognese", "price": 15.99, "veg": false, "halal": false, "spice": "none", "nuts": false, "description": "Spaghetti with a slow-cooked beef and pork ragu."},
+    {"name": "Penne Arrabbiata", "price": 13.49, "veg": true, "halal": false, "spice": "hot", "nuts": false, "description": "Penne in a garlicky tomato and chili sauce."},
+    {"name": "Pesto Gnocchi", "price": 14.49, "veg": true, "halal": false, "spice": "none", "nuts": true, "description": "Potato gnocchi in basil pesto made with pine nuts."},
+    {"name": "Caesar Salad", "price": 9.99, "veg": false, "halal": false, "spice": "none", "nuts": false, "description": "Romaine, croutons and parmesan with anchovy dressing."},
+    {"name": "Garlic Bread", "price": 5.49, "veg": true, "halal": false, "spice": "none", "nuts": false, "description": "Toasted bread with garlic butter and herbs."},
+    {"name": "Tiramisu", "price": 6.99, "veg": true, "halal": false, "spice": "none", "nuts": false, "description": "Espresso-soaked ladyfingers with mascarpone cream."}
+  ],
+  "Mexican": [
+    {"name": "Chicken Tacos (3)", "price": 11.97, "veg": false, "halal": false, "spice": "medium", "nuts": false, "description": "Three corn tortillas with grilled chicken, onion, cilantro and salsa verde."},
+    {"name": "Veggie Burrito", "price": 10.99, "veg": true, "halal": false, "spice": "mild", "nuts": false, "description": "Rice, black beans, peppers, cheese and pico de gallo."},
+    {"name": "Carne Asada Burrito", "price": 13.49, "veg": false, "halal": false, "spice": "medium", "nuts": false, "description": "Grilled steak, rice, beans and salsa roja."},
+    {"name": "Halal Chicken Quesadilla", "price": 12.49, "veg": false, "halal": true, "spice": "mild", "nuts": false, "description": "Halal-certified chicken and melted cheese in a flour tortilla."},
+    {"name": "Cheese Enchiladas", "price": 11.99, "veg": true, "halal": false, "spice": "medium", "nuts": false, "description": "Three cheese enchiladas in red chili sauce."},
+    {"name": "Chicken Mole", "price": 14.99, "veg": false, "halal": false, "spice": "medium", "nuts": true, "description": "Chicken in a rich mole sauce made with peanuts and almonds."},
+    {"name": "Chips and Guacamole", "price": 6.49, "veg": true, "halal": true, "spice": "none", "nuts": false, "description": "House tortilla chips with fresh guacamole."},
+    {"name": "Elote", "price": 4.99, "veg": true, "halal": false, "spice": "mild", "nuts": false, "description": "Grilled corn with mayo, cotija and chili powder."},
+    {"name": "Churros", "price": 5.49, "veg": true, "halal": true, "spice": "none", "nuts": false, "description": "Cinnamon sugar churros with chocolate dip."}
+  ]
+}

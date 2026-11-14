@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>334-FOOD-NOW</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div class="brand">
+        <div class="logo">334</div>
+        <div>
+          <h1>334-FOOD-NOW</h1>
+          <p>One call · three restaurants · one delivery</p>
+        </div>
+      </div>
+      <div class="kitchens">
+        <span class="k indian">Indian</span>
+        <span class="k italian">Italian</span>
+        <span class="k mexican">Mexican</span>
+      </div>
+    </header>
+    <div class="layout">
+      <section class="chat">
+        <div class="chat-head">
+          <div class="avatar">AI</div>
+          <div>
+            <strong>Ordering agent</strong>
+            <span class="online">Online · powered by Gemini</span>
+          </div>
+        </div>
+        <div id="log" class="log" aria-live="polite"></div>
+        <div class="chips" id="chips"></div>
+        <form id="form" class="composer">
+          <input id="msg" autocomplete="off" placeholder="Order from any of our kitchens..." />
+          <button type="submit" aria-label="Send">Send</button>
+        </form>
+      </section>
+      <aside class="side">
+        <div class="card">
+          <div class="card-head">
+            <h2>Your order</h2>
+            <span id="status" class="badge">open</span>
+          </div>
+          <div id="cart"><p class="empty">Your cart is empty. Ask for anything on the menu.</p></div>
+        </div>
+        <div class="card" id="outputs" hidden>
+          <div class="card-head">
+            <h2>Checkout</h2>
+            <span id="ordernum" class="badge"></span>
+          </div>
+          <div class="pay" id="pay"></div>
+          <h3>Group text</h3>
+          <div class="sms-card">
+            <div class="sms-from">334-FOOD-NOW → customer, restaurants, driver</div>
+            <pre id="group"></pre>
+          </div>
+          <div class="sim">
+            <button data-ev="paid">Simulate payment</button>
+            <button data-ev="ready">Restaurants READY</button>
+            <button data-ev="delivered">Driver DELIVERED</button>
+          </div>
+          <details>
+            <summary>Order JSON (split by restaurant)</summary>
+            <pre id="json" class="code"></pre>
+          </details>
+        </div>
+      </aside>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/src/call.js"></script>
+  </body>
+</html>
